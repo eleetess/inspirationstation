@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Agu+Display&family=Rubik+Gemstones&display=swap');
+
+html{
+    /* CSS HSL */
+--reseda-green: hsla(51, 19%, 41%, 1);
+--space-cadet: hsla(238, 44%, 16%, 1);
+--dark-magenta: hsla(306, 76%, 36%, 1);
+--bright-pink-crayola: hsla(346, 100%, 65%, 1);
+--melon: hsla(15, 100%, 80%, 1);
+}
+h1,h2{
+    border: var(--dark-magenta);
+    color:var(--bright-pink-crayola)
+}
+
+   h1, h2 {
+    padding: 40px;
+    border: solid 12px;
+    justify-content: center;
+    align-items: center;
+  font-family: "Agu Display", serif;
+  font-optical-sizing: auto;
+  font-weight:  400;
+  font-style: normal;
+font-size: x-large;
+}
+
+*{
+    background: #7B7554FF;
+background: linear-gradient(90deg, rgba(123, 117, 84, 1) 0%, rgba(23, 24, 59, 1) 50%, rgba(255, 180, 154, 1) 100%);
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+.hero{
+    margin: auto;
+    padding: 40px;
+    border: solid var(--melon);
+}
+a{
+    color: azure;
+}
