@@ -1,48 +1,70 @@
-@import url('https://fonts.googleapis.com/css2?family=Agu+Display&family=Rubik+Gemstones&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Agu+Display&family=Rubik+Gemstones&display=swap");
 
-html{
-    /* CSS HSL */
---tea-green: hsla(98, 27%, 81%, 1);
---fuchsia-rose: hsla(336, 56%, 52%, 1);
---beaver: hsla(18, 22%, 54%, 1);
---redwood: hsla(6, 33%, 44%, 1);
---dark-purple: hsla(311, 65%, 11%, 1);
+html {
+  /* CSS HSL */
+  --tea-green: hsla(98, 27%, 81%, 1);
+  --fuchsia-rose: hsla(336, 56%, 52%, 1);
+  --beaver: hsla(18, 22%, 54%, 1);
+  --redwood: hsla(6, 33%, 44%, 1);
+  --dark-purple: hsla(311, 65%, 11%, 1);
 }
-h1,h2,p{
-border: solid var(--dark-purple);
-color: var(--dark-purple);
+h1,
+h2,
+p {
+  color: var(--dark-purple);
+  
 }
 
-   h1, h2 {
-    padding: 40px;
-    border: solid 12px;
-    justify-content: center;
-    align-items: center;
+h1,
+h2 {
+  padding: 40px;
+
   font-family: "Agu Display", serif;
   font-optical-sizing: auto;
-  font-weight:  400;
+  font-weight: 400;
   font-style: normal;
-font-size: xx-large;
+  font-size: xx-large;
 }
 
-*{
-    background: #94524AFF;
-background: linear-gradient(90deg, rgba(148, 82, 74, 1) 0%, rgba(162, 126, 111, 1) 50%, rgba(201, 66, 119, 1) 100%);
+/* * {
+  background: #94524aff;
+  background: linear-gradient(
+    90deg,
+    rgba(148, 82, 74, 1) 0%,
+    rgba(162, 126, 111, 1) 50%,
+    rgba(201, 66, 119, 1) 100%
+  );
+} */
+body {
+    /* background: #94524aff; */
+  background: linear-gradient(
+    90deg,
+    rgba(148, 82, 74, 1) 0%,
+    rgba(162, 126, 111, 1) 50%,
+    rgba(201, 66, 119, 1) 100%
+  );
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: var(--dark-purple);
+  text-align: center;
 }
-body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
-    text-align: center;
+.hero {
+    background-color: var(--tea-green);
+  margin: auto;
+  margin-bottom: 50px;
+  padding: 40px;
+  border: solid var(--dark-purple);
+  color: var(--tea-green);
 }
-.hero{
-    min-width: ;
-    min-height: ;
-    margin: auto;
-    padding: 40px;
-    border: solid var(--melon);
-    justify-content: center;
-    align-content: center;
+a {
+    color:var(--dark-purple);
+    
 }
-a{
-    color: azure;
+
+img {
+    margin-top: 40px;
+  width: 300px;
+  height: 300px;
+  padding: 20px;
+  border: solid var(--dark-purple);
+  border-radius: 8px;
 }
