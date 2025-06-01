@@ -2,15 +2,15 @@
 
 html{
     /* CSS HSL */
---reseda-green: hsla(51, 19%, 41%, 1);
---space-cadet: hsla(238, 44%, 16%, 1);
---dark-magenta: hsla(306, 76%, 36%, 1);
---bright-pink-crayola: hsla(346, 100%, 65%, 1);
---melon: hsla(15, 100%, 80%, 1);
+--tea-green: hsla(98, 27%, 81%, 1);
+--fuchsia-rose: hsla(336, 56%, 52%, 1);
+--beaver: hsla(18, 22%, 54%, 1);
+--redwood: hsla(6, 33%, 44%, 1);
+--dark-purple: hsla(311, 65%, 11%, 1);
 }
-h1,h2{
-    border: var(--dark-magenta);
-    color:var(--bright-pink-crayola)
+h1,h2,p{
+border: solid var(--dark-purple);
+color: var(--dark-purple);
 }
 
    h1, h2 {
@@ -22,22 +22,26 @@ h1,h2{
   font-optical-sizing: auto;
   font-weight:  400;
   font-style: normal;
-font-size: x-large;
+font-size: xx-large;
 }
 
 *{
-    background: #7B7554FF;
-background: linear-gradient(90deg, rgba(123, 117, 84, 1) 0%, rgba(23, 24, 59, 1) 50%, rgba(255, 180, 154, 1) 100%);
+    background: #94524AFF;
+background: linear-gradient(90deg, rgba(148, 82, 74, 1) 0%, rgba(162, 126, 111, 1) 50%, rgba(201, 66, 119, 1) 100%);
 }
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
     text-align: center;
 }
 .hero{
+    min-width: ;
+    min-height: ;
     margin: auto;
     padding: 40px;
     border: solid var(--melon);
+    justify-content: center;
+    align-content: center;
 }
 a{
     color: azure;
