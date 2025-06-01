@@ -4,6 +4,8 @@ header (inspiration station)
 ## hero
 Do you require being inspired?,Subheading: Creative Activies for Inspiration in one station. Craving something imaginative? inventive? experimental? But where to start? Welcome to Inspiration Station !!
 # Ideas
--esquisite corpse-pick a scene from book or movie and rewrite the following text to change its tragectory/story
+-esquisite corpse-pick a scene from book or movie and rewrite the following text to change its trajectory/story
 -music, pull up youtube to one of your favorite songs with your favorite instrument and follow along.
 -make dirt into mud and use as earth watercolors and let your imagination do the rest.
+-Real life scavenger hunt:use nature-use traffic signs-parts of your house to create an interactive atmosphere for you and a friend
+-
