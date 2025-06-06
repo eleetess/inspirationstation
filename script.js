@@ -109,36 +109,7 @@ document.getElementById("generateBtn").addEventListener("click", function (event
   getNextIdea();
 });
 
-const savedFavorites = JSON.parse(localStorage.getItem("favoriteIdeas"));
 
-if (savedFavorites) {
-  creativeIdeas = creativeIdeas.map(idea => {
-    const saved = savedFavorites.find(i => i.title === idea.title);
-    return saved ? { ...idea, favorite: true } : idea;
-  });
-}
-
-function updateFavoritesDisplay() {
-  const list = document.getElementById("favoritesList");
-  if (!list) return;
-
-  list.innerHTML = ""; 
-  const favorites = creativeIdeas.filter(i => i.favorite);
-
-  favorites.forEach(idea => {
-    const li = document.createElement("li");
-    li.textContent = idea.title;
-    list.appendChild(li);
-  });
-}
-document.getElementById("favBtn").addEventListener("click", function () {
-  idea.favorite = !idea.favorite;
-  this.textContent = idea.favorite ? "⭐ Unfavorite" : "⭐ Favorite";
-
-  
-  const favoriteIdeas = creativeIdeas.filter(i => i.favorite);
-  localStorage.setItem("favoriteIdeas", JSON.stringify(favoriteIdeas));
-});
 //Title:
 //Description:
 //Favorite:
