@@ -60,13 +60,12 @@ const creativeIdeas = [
 
 
 
-function shuffleArray(array) {
-  const newArray = [...array];
-  for (let i = newArray.length - 1; i > 0; i--) {
+function shuffleArray(arr) {
+  for (let i = arr.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
+    [arr[i], arr[j]] = [arr[j], arr[i]];
   }
-  return newArray;
+  return arr;
 }
 
 
